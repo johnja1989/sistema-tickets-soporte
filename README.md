@@ -9,7 +9,7 @@
 
 ## 🚀 **Demo en Vivo**
 
-- **Frontend**: [Ver aplicación](https://tu-usuario.github.io/repo-name)
+- **Frontend**: [Ver aplicación](https://johnja1989.github.io/sistema-tickets-soporte/)
 
 ## 📸 **Capturas de Pantalla**
 
@@ -243,13 +243,13 @@ Este proyecto fue desarrollado como prueba técnica. Las sugerencias y mejoras s
 
 ## 📄 **Licencia**
 
-Este proyecto es de código abierto bajo la licencia MIT. Ver archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto es de código abierto bajo la licencia MIT. Ver archivo [LICENSE](https://github.com/johnja1989/sistema-tickets-soporte/blob/main/LICENSE) para más detalles.
 
 ## 👨‍💻 **Autor**
 
 **Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/johnja1989)
-- LinkedIn: [Tu LinkedIn](https://www.linkedin.com/in/john-jairo-vargas-gonz%C3%A1lez-25a790237/)
+- GitHub: [https://github.com/johnja1989](https://github.com/johnja1989)
+- LinkedIn: [https://www.linkedin.com/in/john-jairo-vargas-gonz%C3%A1lez-25a790237/](https://www.linkedin.com/in/john-jairo-vargas-gonz%C3%A1lez-25a790237/)
 - Email: johnjairovargasgonzalez@gmail.com
 
 ---
