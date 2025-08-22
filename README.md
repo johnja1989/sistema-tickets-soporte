@@ -9,8 +9,7 @@
 
 ## 🚀 **Demo en Vivo**
 
-- **Frontend**: [Ver aplicación](https://tu-usuario.github.io/repo-name) *(Configurar GitHub Pages)*
-- **API Docs**: [Swagger/OpenAPI](url-de-tu-api) *(Opcional)*
+- **Frontend**: [Ver aplicación](https://tu-usuario.github.io/repo-name)
 
 ## 📸 **Capturas de Pantalla**
 
