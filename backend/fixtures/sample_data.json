@@ -1,0 +1,216 @@
+[
+  {
+    "model": "tickets.ticket",
+    "pk": 1,
+    "fields": {
+      "titulo": "Error en el login del sistema",
+      "descripcion": "Los usuarios no pueden acceder al sistema usando sus credenciales habituales. El error aparece después de hacer clic en 'Iniciar Sesión'.",
+      "prioridad": "alta",
+      "solicitante": "María García",
+      "email": "maria.garcia@empresa.com",
+      "estado": "en_proceso",
+      "fecha_creacion": "2024-08-15T09:30:00Z",
+      "fecha_actualizacion": "2024-08-15T11:45:00Z"
+    }
+  },
+  {
+    "model": "tickets.ticket",
+    "pk": 2,
+    "fields": {
+      "titulo": "Solicitud de acceso a carpeta compartida",
+      "descripcion": "Necesito acceso a la carpeta compartida 'Proyectos 2024' para poder colaborar en el proyecto actual.",
+      "prioridad": "media",
+      "solicitante": "Carlos Rodríguez",
+      "email": "carlos.rodriguez@empresa.com",
+      "estado": "nuevo",
+      "fecha_creacion": "2024-08-16T14:20:00Z",
+      "fecha_actualizacion": "2024-08-16T14:20:00Z"
+    }
+  },
+  {
+    "model": "tickets.ticket",
+    "pk": 3,
+    "fields": {
+      "titulo": "Configuración de nuevo equipo",
+      "descripcion": "Necesito ayuda para configurar mi nuevo equipo de trabajo con todos los programas y accesos necesarios.",
+      "prioridad": "media",
+      "solicitante": "Ana López",
+      "email": "ana.lopez@empresa.com",
+      "estado": "resuelto",
+      "fecha_creacion": "2024-08-10T08:15:00Z",
+      "fecha_actualizacion": "2024-08-14T16:30:00Z"
+    }
+  },
+  {
+    "model": "tickets.ticket",
+    "pk": 4,
+    "fields": {
+      "titulo": "Problema con impresora de oficina",
+      "descripcion": "La impresora del segundo piso no funciona. Muestra un error de conexión constante.",
+      "prioridad": "baja",
+      "solicitante": "Luis Hernández",
+      "email": "",
+      "estado": "cerrado",
+      "fecha_creacion": "2024-08-05T13:45:00Z",
+      "fecha_actualizacion": "2024-08-12T10:20:00Z"
+    }
+  },
+  {
+    "model": "tickets.ticket",
+    "pk": 5,
+    "fields": {
+      "titulo": "Actualización de software de contabilidad",
+      "descripcion": "El sistema de contabilidad necesita ser actualizado a la última versión para cumplir con las nuevas regulaciones.",
+      "prioridad": "alta",
+      "solicitante": "Patricia Morales",
+      "email": "patricia.morales@empresa.com",
+      "estado": "nuevo",
+      "fecha_creacion": "2024-08-17T11:00:00Z",
+      "fecha_actualizacion": "2024-08-17T11:00:00Z"
+    }
+  },
+  {
+    "model": "tickets.ticket",
+    "pk": 6,
+    "fields": {
+      "titulo": "Capacitación en herramientas digitales",
+      "descripcion": "Solicito capacitación en las nuevas herramientas digitales que implementó la empresa para mejorar la productividad.",
+      "prioridad": "baja",
+      "solicitante": "Roberto Silva",
+      "email": "roberto.silva@empresa.com",
+      "estado": "en_proceso",
+      "fecha_creacion": "2024-08-12T16:30:00Z",
+      "fecha_actualizacion": "2024-08-15T09:15:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 1,
+    "fields": {
+      "ticket": 1,
+      "autor": "Sistema",
+      "contenido": "Ticket creado por María García",
+      "fecha_creacion": "2024-08-15T09:30:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 2,
+    "fields": {
+      "ticket": 1,
+      "autor": "Soporte Técnico",
+      "contenido": "Hemos identificado el problema. Parece ser un error en el servidor de autenticación. Trabajando en la solución.",
+      "fecha_creacion": "2024-08-15T10:15:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 3,
+    "fields": {
+      "ticket": 1,
+      "autor": "Sistema",
+      "contenido": "Estado cambiado a 'En Proceso'",
+      "fecha_creacion": "2024-08-15T11:45:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 4,
+    "fields": {
+      "ticket": 2,
+      "autor": "Sistema",
+      "contenido": "Ticket creado por Carlos Rodríguez",
+      "fecha_creacion": "2024-08-16T14:20:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 5,
+    "fields": {
+      "ticket": 3,
+      "autor": "Sistema",
+      "contenido": "Ticket creado por Ana López",
+      "fecha_creacion": "2024-08-10T08:15:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 6,
+    "fields": {
+      "ticket": 3,
+      "autor": "IT Support",
+      "contenido": "Equipo configurado exitosamente. Se instalaron todos los programas requeridos y se configuraron los accesos necesarios.",
+      "fecha_creacion": "2024-08-14T15:20:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 7,
+    "fields": {
+      "ticket": 3,
+      "autor": "Sistema",
+      "contenido": "Estado cambiado a 'Resuelto'",
+      "fecha_creacion": "2024-08-14T16:30:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 8,
+    "fields": {
+      "ticket": 4,
+      "autor": "Sistema",
+      "contenido": "Ticket creado por Luis Hernández",
+      "fecha_creacion": "2024-08-05T13:45:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 9,
+    "fields": {
+      "ticket": 4,
+      "autor": "Mantenimiento",
+      "contenido": "Se reemplazó el cable de red de la impresora. Problema solucionado.",
+      "fecha_creacion": "2024-08-12T09:30:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 10,
+    "fields": {
+      "ticket": 4,
+      "autor": "Sistema",
+      "contenido": "Estado cambiado a 'Cerrado'",
+      "fecha_creacion": "2024-08-12T10:20:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 11,
+    "fields": {
+      "ticket": 5,
+      "autor": "Sistema",
+      "contenido": "Ticket creado por Patricia Morales",
+      "fecha_creacion": "2024-08-17T11:00:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 12,
+    "fields": {
+      "ticket": 6,
+      "autor": "Sistema",
+      "contenido": "Ticket creado por Roberto Silva",
+      "fecha_creacion": "2024-08-12T16:30:00Z"
+    }
+  },
+  {
+    "model": "tickets.comment",
+    "pk": 13,
+    "fields": {
+      "ticket": 6,
+      "autor": "Recursos Humanos",
+      "contenido": "Se ha programado la capacitación para el próximo viernes. Se enviará invitación por correo.",
+      "fecha_creacion": "2024-08-15T09:15:00Z"
+    }
+  }
+]
